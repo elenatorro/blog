@@ -20,7 +20,7 @@ Total, que me *han liao* y aquí estoy, viendo a ver cómo meto con calzador tod
 
 Por ahora, aquí va un pequeño *hint*, un boceto de un *workflow* Agile-UX, inspirado en papers y libros que he estado leyendo últimamente. Parece que con tanta flecha se me ha ido un poco la pinza, pero os aseguro que tiene sentido. No voy a decir mucho más para mantener el **hype** (que es algo que no se me da muy bien), pero acepto feedback.
 
-![](/img/content/images/2015/10/agileuxworkflow_good.png)
+![](img/content/images/2015/10/agileuxworkflow_good.png)
 
 Termino el post con la intro de la charla:
 

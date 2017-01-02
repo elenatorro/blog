@@ -18,8 +18,8 @@ La conclusión de Fitts es que se tarda más en alcanzar un objetivo que está m
 
 Hasta aquí todo es bastante sencillo. Pero claro, no todos los sistemas son iguales. Por ejemplo, el tiempo que voy a tardar en dibujar una línea recta con un **bolígrafo** desde la esquina superior izquierda de mi libreta hasta un punto en el centro de la misma, va a depender de varios factores: el tipo de tinta del bolígrafo, la rugosidad del papel, la velocidad a la que yo dibujo la línea... Si tuviéramos que trazar la misma distancia hacia un punto con las mismas dimensiones, utilizando un ratón en una aplicación de dibujo, los factores determinantes serían distintos: la velocidad de pintado de píxeles de la aplicación, lo bien que se me dé utilizar el ratón, la velocidad a la que haya configurado éste...
 
-![](/img/content/images/2016/01/fittslaw.gif)
-![](/img/content/images/2016/01/fitss2.gif)
+![](img/content/images/2016/01/fittslaw.gif)
+![](img/content/images/2016/01/fitss2.gif)
 
 Las imágenes anteriores las he obtenido de [este artículo](http://www.particletree.com/features/visualizing-fittss-law/), que lo ilustra y explica bastante bien.
 

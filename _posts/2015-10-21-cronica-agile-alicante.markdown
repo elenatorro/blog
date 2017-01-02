@@ -59,7 +59,7 @@ Y hablando también de para equipos en general, destaco estos tips que dio casi 
 
 Además, esta charla me sirvió para saber más en profunidad cómo funcionan los equipos de la empresa en la que trabajo, [Gemalto](https://twitter.com/nievesgarciadie).
 
-![](/img/content/images/2015/10/agilealicante2.jpg)
+![](img/content/images/2015/10/agilealicante2.jpg)
 
 ## 10:50
 *UX & Agile – Elena Torró*
@@ -74,7 +74,7 @@ Mientras tanto, podéis ver las slides en [SlideShare](http://es.slideshare.net/
 
 
 A pesar de estar nerviosilla, como es típico, creo que la cosa fue bastante bien, la gente participó y me dio mucho feedback.
-![](/img/content/images/2015/10/agilealicante1.jpg)
+![](img/content/images/2015/10/agilealicante1.jpg)
 
 ## 11:26
 *Coffee Break & Networking*

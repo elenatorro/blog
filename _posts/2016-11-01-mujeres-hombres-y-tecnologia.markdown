@@ -30,11 +30,11 @@ La verdad es que me sorprende mucho cuando leo artículos, cuando leo comentario
 
 Desde luego, el hecho de que se estén creando movimientos para crear referentes femeninos en disciplinas STEM no ha aparecido por casualidad. Hay diferencias, está claro. Si durante años muestras anuncios de juguetes en los que ellos pueden construir cosas alucinantes y ellas peinar a sus muñecas, a la hora de elegir a qué dedicar tu vida es normal que sientas esa presión social. No es normal que una mujer escriba un tweet diciendo que este año no ha habido mujeres en los premios nobel y se le lancen al cuello.
 
-![](/img/content/images/2016/11/team1.jpg)
+![](img/content/images/2016/11/team1.jpg)
 
 Por otro lado, quiero mencionar el tema de las 'oportunidades a mujeres' o en favor a la diversidad. En este caso, en muchas ocasiones tengo sentimientos encontrados, porque a veces no sé si una empresa/evento/curso da oportunidades exclusivas a mujeres (descuentos, becas, plazas extra) para fomentar la diversidad o bien para mejorar su imagen pública o incluso por temas económicos. Muchos compañeros (hombres y mujeres) se han quejado de esta llamada 'discriminación positiva' ya que para ellos fomenta la competitividad y el sesgo de género. Me parece una opinión aceptable. Personalmente, yo estoy a favor de este tipo de iniciativas, porque sea por la causa que sea, está claro que la balanza está desequilibrada. Pero eso no es lo peor, es que este desequilibro se produce por una errónea percepción de lo que es en realidad. Yo quiero que se vea desde fuera lo que yo siento desde dentro: que es un entorno amigable, muy creativo, formado por multitud de personalidades distintas y además, muy abierto. Existen muchísimos eventos tecnológicos, cada vez más, y cada vez más inclusivos. Hay un concurso para colegios muy interesante de la Universidad Pompeu Fabra, llamado [wisibilízalas](https://portal.upf.edu/web/mdm-dtic/wisibilizalas), cuyo objetivo es dar visibilidad a mujeres. Echadle un vistazo, creo que la idea mola.
 
-![](/img/content/images/2016/11/team3.jpg)
+![](img/content/images/2016/11/team3.jpg)
 
 Para ir acabando, conozco muchas mujeres programadoras, ingenieras, desarrolladoras, informáticas... Hay muchísimas, en serio. Hay más hombres, sí, pero eso no debe de eclipsar a nadie. Conozco mujeres que se dedican al mundo de la robótica, al desarrollo de servidores, a análisis de datos, a QA, al diseño y desarrollo web y de aplicaciones, a la seguridad informática, a la educación online, a los gráficos por computador, realidad aumentada, realidad virtual, videojuegos... De verdad, ¡conozco muchas! Sólo investiga un poco en redes sociales, en twitter, en github. Nunca lo hemos tenido tan fácil para encontrar referentes.
 

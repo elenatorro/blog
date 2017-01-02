@@ -41,7 +41,7 @@ Mi talón de Aquiles, las versiones. Pierdo el control sobre el control de versi
 
 Pero me sigue resultando difícil. Y más aún cuando me doy cuenta de que acabo de publicar una versión que tiene un error que provoca un *facepalm*, y tengo que **crear una nueva versión para arreglarlo**. Y todo esto, tres veces seguidas. Mal Elena. Mal.
 
-![](/img/content/images/2015/12/facepalm.jpg)
+![](img/content/images/2015/12/facepalm.jpg)
 De esto he aprendido que me lo tengo que pensar **dos veces** antes de actualizar una versión. Y aunque a veces piense: 'es que estoy empezando el proyecto, no necesito comentar cada versión', **obligarme a hacerlo**.
 
 De hecho, fastidia bastante cuando alguien hace un **breaking change** y te das cuenta cuando todo se rompe y tardas bastante rato hasta dar con el [hilo de GitHub](https://github.com/gruntjs/grunt-contrib-imagemin/issues/208) en el que explica lo sucedido.

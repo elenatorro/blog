@@ -141,10 +141,10 @@ function changeLanguage (language) {
 
 El código está en este [repo](https://github.com/elenatorro/Ghosti18n) de GitHub por si te lo quieres descargar. También puedes añadir lo siguiente en las settings de tu blog (no olvides añadir primero el script de [LookJS](https://raw.githubusercontent.com/elenatorro/LookJS/master/lib/Look.min.js)):
 
-![Ghost Settings Screenshot](/img/content/images/2016/03/Screen-Shot-2016-03-02-at-21-34-03.png)
+![Ghost Settings Screenshot](img/content/images/2016/03/Screen-Shot-2016-03-02-at-21-34-03.png)
 
 ## Ejemplo:
 
-![](/img/content/images/2016/03/languages.gif)
+![](img/content/images/2016/03/languages.gif)
 
 Imagen de portada: [Buzz](http://static.simpledesktops.com/uploads/desktops/2014/10/22/Buzz.png)

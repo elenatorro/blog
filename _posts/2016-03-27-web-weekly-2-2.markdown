@@ -41,7 +41,7 @@ Se trata de introducir un nuevo set de APIs que extentiendan el propio CSS. El [
 * ¿Es una buena idea?
 * ¿Cómo ayudará a los desarrolladores a construir sitios web?
 
-![](/img/content/images/2016/03/virtual-reality-2.jpg)
+![](img/content/images/2016/03/virtual-reality-2.jpg)
 Imagen: [http://vrdeveloper.org/](http://vrdeveloper.org/)
 # WebVR
 

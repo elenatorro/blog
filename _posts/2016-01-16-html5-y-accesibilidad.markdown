@@ -27,7 +27,7 @@ Son las siglas de 'Accessible Rich Internet Applications'. Se trata de una serie
 
 Cuando desarrollamos elementos webs, hemos de dotar a estos de un contenido extra, de una explicación, de datos que hagan ese elemento más accesible. Así, los navegadores interpretan la información de un elemento y la pueden utilizar en tecnologías de asistencia para, por ejemplo, personas con dificultades o discapacidades.
 
-![](/img/content/images/2016/01/accessibleelement.png)
+![](img/content/images/2016/01/accessibleelement.png)
 Imagen: [W3C](https://www.w3.org/TR/wai-aria/introduction#at_support)
 
 He hecho un breve esquema a partir de la [documentación que ofrece el W3C](https://www.w3.org/TR/wai-aria/usage).

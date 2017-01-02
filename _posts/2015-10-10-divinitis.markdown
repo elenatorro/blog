@@ -41,7 +41,7 @@ La *divinitis* es el uso indiscriminado de la etiqueta **div** en los documentos
 En esta página, puedes ver la [lista de elementos HTML5](https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos).
 
 El objetivo es marcar el texto para que sea más **semántico**, y exprese mejor la estructura de los elementos que está representando.
-![html5](/img/content/images/2015/10/html5_doc_sections.gif)
+![html5](img/content/images/2015/10/html5_doc_sections.gif)
 *[Imagen: HTMLgoodies](http://www.htmlgoodies.com/tutorials/html5/new-tags-in-html5.html#fbid=PKv1jfDynGj)*
 
 El problema es que muchos **frameworks** frontend ponen como ejemplo una sintaxis llena de *divs*, y como tendemos al *copy paste*, lo dejamos tal cual (sí, yo también he sufrido de divinitis y aún me estoy curando de los síntomas, sufriendo alguna que otra recaída sin darme cuenta). Aquí dejo un ejemplo de Bootstrap, comparando lo que tiene en la especificación de su web, con cuál sería una solución más semántica.
