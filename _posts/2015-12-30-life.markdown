@@ -1,0 +1,27 @@
+---
+layout: post
+title: Life
+date: '2015-12-30 09:44:34'
+---
+
+## Un proyecto 'software' muy personal
+<pre><code class="language-css">border-top-style: solid;
+</code></pre>
+
+Hace unos días, descubrí el siguiente proyecto de GitHub un tanto peculiar: https://github.com/feross/Life
+
+Es una idea original de [Feross Aboukhadijeh](http://feross.org/), un chico de 25 años (sólo dos años más que yo) que ha estudiado en Standford y ya ha trabajado en Quora, Facebook, Intel, ha dado clases, y hace proyectos increíbles como [WebTorrent](https://webtorrent.io/) . Una de esas personas que me hacen preguntarle a mi madre: Mamá, ¿qué estoy haciendo con mi vida? Una de esas personas que **inspiran** y que hacen que veas que puedes **superarte** a ti mismo.
+
+Pues precisamente ha creado un repositorio con ese mismo nombre, 'Vida'. El concepto es el siguiente: utilizar GitHub para llevar tu vida como si fuera otro proyecto software. Vaya, dicho así en voz alta suena un poco inquietante, pero es más **humano** de lo que parece.
+
+Consta de un único archivo: un README.md con un link a 'goals' y otro a 'achievements'. Es decir, usas la plataforma para abrir **issues**, que son los objetivos que te quieres marcar, y cuando los cumples, pasan a la lista de objetivos conseguidos. Puedes añadir comentarios, checklists, tags... Es una idea muy simple, pero que me ha hecho pensar de cara al año 2016, que está a la vuelta de la esquina.
+
+¿Qué he hecho este año? ¿Qué objetivos he conseguido? Sí, sé que he conseguido muchas cosas. Conseguí acabar la carrera, empezar el máster, trabajar, independizarme, leer más de 25 libros, salir más de 'fiesta' (esto es una lucha personal), pasar más tiempo con mi familia... pero también hay cosas que no he conseguido. Sólo he hecho dos viajes, no he conseguido correr a menos velocidad de 6.30 minutos por km (cinco runners se están riendo de esto ahora mismo), tampoco he conseguido terminar un proyecto (no encuentro mi side-project perfecto)... Y así. Son cosas que tengo en mente y que no contabilizo más que de cabeza.
+
+Ésta es la [lista de objetivos cumplidos por Feross desde el año 2013](https://github.com/feross/Life/issues?q=is%3Aclosed). En mi caso, aquí están los [issues que me he propuesto en mi Life Project](https://github.com/elenatorro/Life)
+
+## ¿Y qué quiero conseguir con esto? 💪
+
+Tengo muchas ganas de probar este experimento. Quiero ser más *agile*. Mejorar la *user experience* de los que me rodean. Espero darle un *responsive design* a mi humor. Quiero lanzar una nueva *release* llena de *improvements*. Arreglar *bugs*. Mejorar la versión de mi vida tras cada actualización. Tener una actitud más *open source*. También seguir más la técnica **KISS**, y no sólo porque quiera dar más besos, sino por aplicar el **'Keep It Simple, Stupid'**. Eliminar y minimizar los *assets* que no utilizo. Quiero aceptar más *pull requests*. Crear una nueva *branch*, y si funciona, *mergearlo* con la *máster*. Y si no, a resolver otro *issue*.
+ 
+Espero que os guste y que también cumpláis vuestros objetivos este año. Feliz 2016 😘

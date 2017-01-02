@@ -1,0 +1,29 @@
+---
+layout: post
+title: Agile & UX
+date: '2015-10-05 21:20:50'
+image:
+  feature: content/images/2015/10/mac_2.png
+  credit: Innovation
+  creditlink: http://static.simpledesktops.com/uploads/desktops/2015/03/27/1.png
+---
+
+Llevo ya bastante tiempo mareando a la gente con la Experiencia de Usuario, y siempre aprovecho la mínima oportunidad para sacar el tema. Y no porque sea una moda, ni porque crea la UX es el tema de *postureo* del momento. Más bien, cuando entendí de verdad qué quería decir y descubrí tanto lo muchísimo que me molaba, como lo importantísimo que era, decidí que había que difundirlo a toda costa. Porque no todo el mundo lo toma en serio. Porque desde el punto de vista de los desarrolladores, suele parecer un esfuerzo innecesario. Y nada **más lejos** de la realidad.
+
+Llegué a pensar que igual me había vuelto un poquito *spammer*, pero luego leí el libro [The UX Team of One](http://www.amazon.com/The-User-Experience-Team-One/dp/1933820187) y cambié de opinión. Y **ojocuidao**, pues entre otras cosas, se habla de cómo un individuo puede concienciar al resto de su equipo acerca de la importancia de pensar en el usuario de un producto para el desarrollo del mismo.
+
+Ya aproveché en su día y di una charla llamada [Introducción a la Experiencia de Usuario](http://www.slideshare.net/ElenaTorro/an-introduction-to-user-experience) en los Google Developer Group de Murcia, organizado por mi amiga Inés. Vinieron amigos, algunos conocidos de la universidad y por supuesto, mi madre, mi padre, mi hermano, mi abuelo y mi abuela. El clásico *Family, Friends and Fools*. Un año después, creo que ha llegado el momento de seguir **spammeando** al personal, y será en el evento [Agile Spain University Day](http://agilealicante.org/), el próximo 17 de Octubre.
+
+Cuando vi que tenía la oportunidad de presentar una propuesta para una charla, no me lo pensé dos veces: aquí meto yo la UX como sea. Y no es que me haya sacado el tema de la manga (*Agile&UX? Seriously?*), ya que no es **nada nuevo** y que además he utilizado ya en varios proyectos. Y **flipas** lo que se consigue haciendo un *merge* de ambos.
+
+Total, que me *han liao* y aquí estoy, viendo a ver cómo meto con calzador toda la info que tengo en 45 minutos. Creo que algo se podrá hacer. Y la cosa es que con la tontería, he empezado a escribir un pequeño documento, con la idea de publicarlo en este blog, o subirlo para que lo podáis descargar. Todo depende de lo corto/largo que quede.
+
+Por ahora, aquí va un pequeño *hint*, un boceto de un *workflow* Agile-UX, inspirado en papers y libros que he estado leyendo últimamente. Parece que con tanta flecha se me ha ido un poco la pinza, pero os aseguro que tiene sentido. No voy a decir mucho más para mantener el **hype** (que es algo que no se me da muy bien), pero acepto feedback.
+
+![](/img/content/images/2015/10/agileuxworkflow_good.png)
+
+Termino el post con la intro de la charla:
+
+"En los últimos años, las metodologías de desarrollo centradas en el usuario han tenido un fuerte impacto en el desarrollo de aplicaciones. Crear aplicaciones pensando en el usuario final ha demostrado ser una estrategia de éxito. Pero, ¿cómo se integran estas metodologías con las metodologías de desarrollo ágil? ¿Son lo mismo? ¿Cómo se pueden combinar? Durante la charla, se expondrán las características del diseño centrado en el usuario, las técnicas de UX y cómo éstas se relacionan con el mundo ágil."
+
+Imagen de portada: [Innovation](http://static.simpledesktops.com/uploads/desktops/2015/03/27/1.png)

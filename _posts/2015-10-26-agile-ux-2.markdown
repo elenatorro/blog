@@ -1,0 +1,75 @@
+---
+layout: post
+title: Agile&UX - Planificación
+date: '2015-10-26 21:32:22'
+---
+
+## Metodologías UX
+Ya hemos hablado de qué es "UX", o al menos hemos definido una aproximación al término. Ahora, es el momento de conocer las metodologías UX. Hay una gran cantidad de métodos y técnicas de diseño de experiencia de usuario. Dependiendo del propósito de las mismas, se clasifican en una capa distinta del proceso de desarrollo. Pero todas estas fases tienen algo en común: estudio, investigación y pruebas. Invertir una importante cantidad de tiempo en conocer bien a tu usuario objetivo (el tipo de usuario que usará el producto) se considera prioritario. Es la esencia del diseño UX. En esta sección, se diferenciarán las distintas fases del proceso de desarrollo, los roles que puede asumir un diseñador UX, y qué metodologías se pueden llevar a caba en dichas fases y cómo están relacionadas con los distintos roles. Además, se incluye una introducción al Diseño Centrado en el Usuario, conocido como UCD (User Centered Design).
+
+En este apartado, hablaremos de distintas metodologías clasificadas en cuatro fases del UCD: **Planificación, Análisis, Diseño y Pruebas.**
+
+### Planificación
+Esta es, sin duda alguna, una fase común en cualquier proceso de desarrollo. Tanto de desarrollo tecnológico, como también para cualquier otro ámbito, como por ejemplo, escribir un libro o rodar una película. Un director de cine raramente se lanza con su equipo a rodar la primera escena sin tener preparado un guión, unos actores que se han preparado su papel, un equipo de producción, un escenario… La planificación es la **base** de todo, en la cual el principal objetivo no es sólo planificar, sino también **identificar**. En el caso del diseño UX, se hace un especial hincapié al usuario objetivo y a la relación de éste con el producto.
+
+**¿Qué identificar?**
+
+* El producto que se va a desarrollar.
+* Características.
+* Envergadura.
+* Tipo de producto.
+* Estimaciones de tiempo (desarrollar primera versión, tiempo dedicado a la investigación…)
+* El usuario objetivo
+* Cuál es la audiencia de nuestro producto.
+* Qué necesidades queremos cubrir.
+* Cómo se cubrirán dichas necesidades.
+* Objetivos alcanzables: Los objetivos que esperamos que el usuario sea capaz de cumplir. Qué conseguirá el usuario al utilizar el producto.
+Estos objetivos incluyen **usabilidad** y **satisfacción**.
+
+Es muy importante ser **específico** a la hora de identificar el usuario objetivo. Conocer bien un tipo concreto de usuario hará que el producto a desarrollar cubra con las necesidades de ese tipo. Cuanto más amplia y ambigua sea la definición del usuario objetivo, más necesidades existirán y más difíciles serán de cumplir. Con toda esta información, se puede comenzar a elaborar el documento de requerimientos del producto.
+
+
+**Métodos para la fase de planificación**
+
+* **Blueprint**, también conocida como "Ruta de Experiencia" o "Mapa de Uso"
+El objetivo de este método es describir cómo funciona un producto en un determinado contexto. Se trata de un gráfico que muestra el funcionamiento que no está a la vista del usuario. El tipo de gráfico dependerá del equipo encargado de la planificación, es abierto, puede ser por ejemplo un esquema de árbol o una tabla. Este método facilita la comunicación y la contextualización del producto a todos los equipos (tanto de diseño como de desarrollo).
+
+* **Personas**:
+Las "Personas" son una **representación realista** del usuario final. Para elaborar las personas, debemos tener claro cuál es el usuario objetivo, ya que la representación de la misma tendrá estas características y gracias a eso podremos conocerlo en mayor profundidad.
+Gracias a las Personas, es posible focalizar a la hora de crear historias de usuario, requisitos, tareas u objetivos. Uno de sus grandes beneficios es que, una vez todo el equipo (desarrolladores/programadores inclusive) conocen estas representaciones, dirigen su trabajo siendo más conscientes de quién va a utilizar lo que ellos están construyendo con sus manos.
+
+* **Historias de Usuario**: ¡Vaya! Aquí nos encontramos con un **término común en las metodologías ágiles ;)**. De hecho, **es lo mismo**. Se trata de una frase simple, común, escrita en lenguaje formal, que representa un requisito software. Por ejemplo, en la metodología Extreme Programming (XP) han de ser escritas por los clientes. Y esto es perfectamente aplicable a esta fase de diseño UX.
+
+En un diseño UX, un workflow adecuado sería: Primero, evaluar las Personas, después, identificar los objetivos y a partir de ellos elaborar las historias de usuario.
+
+* **Entrevistas**: Las entrevistas son un clásico, y parecen a priori un método obvio, sencillo y posible de realizar sin invertir demasiados recursos. Sin embargo, las entrevistas son un arma de doble filo, ya que sus resultados pueden resultar manipulados si las mismas no se efectúan de la manera correcta. En primer lugar, hay distintos tipos de entrevista, y al igual que en el caso de los formularios que veremos después, pueden ser cualitativas (datos obtenidos mediante la observación) o cuantitativas (datos obtenidos utilizando distintas métricas).
+
+* Entrevistas contextuales:
+ * Qué son: Entrevistas informales en las que el entrevistador observa y escucha al usuario.
+ * Cuándo: El usuario se encuentra en su entorno normal de trabajo, no en una sala específica acondicionada o un laboratorio. Son entrevistas flexibles y naturales, en las que no se lleva a cabo una lista de tareas.
+ * Objetivo: Realizar la entrevista mientras el usuario utiliza el producto. Los resultados serán cualitativos. Al observar al usuario en su entorno, se observa qué utiliza y qué acciones desempeña para usar el producto habitualmente, el tiempo que emplea en realizar las tareas que él mismo se propone, y da una visión general del uso del producto.
+
+
+* Entrevistas individuales
+ * Qué son: Entrevistas a una persona de manera individual, como su propio nombre indica.
+ * Cuándo: Cuando estás definiendo los objetivos de tu producto, y antes de enviar formularios. Hacer una entrevista antes que una encuesta ayuda a definir mejor las preguntas que vas a incluir en el formulario.
+ * Objetivo: Saber qué es lo que espera (qué espera conseguir, qué tareas desea cumplir…) para entender mejor el tipo de usuarios que usan actualmente o usarán tu producto. Es importante tomar notas o grabar la entrevista, para poder utilizar los resultados de la misma.
+
+
+* **Focus Group**
+ * Qué son: Básicamente, un conjunto de participantes (hasta 10 personas) que discuten entre ellos. Ofrece la oportunidad de observar la conversación entre los participantes, sin influir en ella, y ver cuáles son sus puntos de vista.
+ * Cuándo: Antes de definir nuevos objetivos, pero después de haber definido el usuario objetivo del producto.
+ * Objetivo: Lo principal es obtener feedback de un grupo de usuarios que cumplan el perfil de tu usuario objetivo. El problema es que los resultados de este método pueden ser **poco precisos**, y no es uno de los mejores métodos ya que es **difícil interpretar** los resultados del mismo. Hay que decidir sobre qué temas se hablará en la sesión, elegir a un moderador, procurar que no se desvíe la discusión. Duran al menos dos horas, por lo que pueden ser muy **ineficientes**.
+
+Estos métodos han de realizarse **sin influenciar** la respuesta del entrevistado o entrevistados. Para ello, hay que prestar atención en las preguntas formuladas, en el ambiente en el que se efectúan las entrevistas (una sala, una habitación con más gente, una llamada telefónica, una videollamada).
+
+También hay que tener en cuenta el estado del proyecto: no es lo mismo entrevistar sobre el uso de un producto que aún no ha sido lanzado que sobre otro que lleva varios años en funcionamiento.
+
+Siguiente Post: **Análisis**
+
+### Bibliografía
+* http://www.usability.gov/how-to-and-tools/methods/index.html?view=list
+* http://uxdesign.cc/ux-methods-deliverables/
+* Bank, Chris - Cao, Jerry, The Guide to UX Design Process & Documentation, UXPin, 2014
+
+Imagen de portada: [I need sleep](http://simpledesktops.com/browse/desktops/2014/jan/19/i-need-sleep/)

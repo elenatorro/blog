@@ -1,0 +1,26 @@
+---
+layout: post
+title: poser.js
+date: '2016-06-05 15:34:46'
+---
+
+<pre><code class="language-css">border-top-style: anti-poser;
+</code></pre>
+
+Llevo mucho tiempo sin escribir en este blog, a pesar de que me propuse hacerlo de manera constante, por dos razones. La primera de ellas es el tiempo, y éste es mi problema por querer hacer demasiadas cosas, y todo junto no se puede. Esto no sería una razón si no tuviera que ver con la segunda razón, ya que al fin y al cabo, cuando de verdad te apetece hacer algo, encuentras tiempo para ello.
+
+La segunda razón es el **postureo**. Muchas personas me han tachado de *postureta* por tener un blog, subir proyectos a github o asistir a eventos de informática.
+
+Hay veces que leo posts de terceros que me parecen escritos por puro postureo, que son escritos para **aparentar saber de algo** o para ver cuántos likes consiguen en todas las redes sociales en las que lo comparten. Por eso, cuando me dicen postureta, me viene a la mente alguno de estos posts y me da vergüenza pensar que ésa es la imagen que doy. No escribo para aparentar saber de algo, sino como la mayoría de gente que escribe posts, por aprender, porque apetece, por compartir.
+
+Siguiendo el hilo de escribir posts por postureo, llega el mundo de asistir a eventos/meetups/quedadas/conferencias por postureo. Hace tres años y medio, asistí a mi primera conferencia de informática (Codemotion, en Madrid), y me gustó muchísimo la experiencia. No tanto por lo que pudiera aprender, que en realidad no asistes con el propósito de aprender, sino porque en un fin de semana me puse al día de cómo estaba el mundo por el que me movía. Conocí a gente, conocí tecnologías y cogí mucha inspiración, que me ha ayudado muchísimo desde entonces. Y por eso me encanta participar en este tipo de eventos, y lo hago siempre que puedo. Hace una semana asistí a un [Software Craftmanship](http://www.meetup.com/es/Software-Craftsmanship-Murcia/events/231331170/) en Murcia, y me lo pasé pipa. Además, voy a ser coorganizadora de [Betabeers Murcia](https://twitter.com/betabeersMUR), y tengo muchas ganas. Porque aquí en Murcia hay gente muy buena, con ganas de compartir, y la comunidad cada vez se está moviendo más, ¡y eso me entusiasma! Creo que merece la pena que haya más sitios aparte de Madrid y Barcelona en los que se muevan cosas, y eso es lo que quiero hacer en Murcia.
+
+Pero cuidado, asistir a este tipo de eventos también es postureo. Dar charlas es postureo. Compartirlo en redes sociales es postureo. Escribir un blog tecnológico es postureo.
+
+Evidentemente, no creo que eso sea así. Sin embargo, sí que es cierto que a nivel personal, estoy en un punto en el que considero que he desviado el verdadero objetivo de las cosas que hago. Y es que sin querer, caes en la espiral de hacer las cosas por un like, un retweet, un comentario, porque alguien comparta tu post, tu foto, tu proyecto fabuloso, tu nueva microlibrería que lo va a petar. Por eso no voy a compartir este post, que he escrito porque quería, no para que alguien lo leyera.
+
+En relación a este tema, dejo este vídeo de la pasada JSDay a la que no pude asistir, que me ha hecho pensar mucho.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nN-ByGZxByc" frameborder="0" allowfullscreen></iframe>
+
+* Imagen de portada: [cmyk, Simple Desktops](http://static.simpledesktops.com/uploads/desktops/2011/08/07/cmyk.png)

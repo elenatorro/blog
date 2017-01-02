@@ -1,0 +1,85 @@
+---
+layout: post
+title: 'Web Weekly #1'
+date: '2016-03-20 18:58:47'
+---
+
+Estado actual:
+<pre><code class="language-css">border-top-style: responsive;
+</code></pre>
+
+¡Aquí está! ¡Lo prometido es deuda! Como comentaba en mi [post anterior](http://bordertopstyle.com/web-weekly/), cada domingo haré un recopilatorio de los temas relacionados con el desarrollo web que he ido viendo durante la semana. ¡Empezamos!
+
+## [Cómo mejorar como diseñador web](http://1stwebdesigner.com/how-to-improve-web-designer/)
+
+He elegido este post para comenzar ya que el objetivo de esta sección en mi blog es parte de este propósito: mejorar. Básicamente, lo que dice este post es bastante obvio. No obstante, eso no quiere decir que lo cumplamos. Aunque se centra en la parte de 'diseño', vale para cualquier tipo de ámbito. 
+
+> It’s very easy to lose inspiration, when we are not surrounded by a learning and inspirational community. You know you love what you do, so don’t quit. In order to counteract the situation, you need to go further, learn new things, and adopt new work methods
+
+Esta lista tiene varios puntos, de los cuales destaco:
+
+* Ver tutoriales (uno al día)
+* Reproducir diseños existentes: ojo, esto no es copiar. Se aprende muchísimo practicando cómo reproducir un diseño o una herramienta, ya que se adquiere práctica y nuevas técnicas.
+* Redecorar tu lugar de trabajo (hablaré de esto en un futuro post ;)
+* Leer, leer y LEER
+* Hacer contactos. Esto es cierto, conocer gente que haga lo mismo que tú hace que te mantengas al día.
+* Tener una libreta. Esto es obviamente imprescindible. Yo uso una pequeña que me cabe en el bolso de la tienda [Tiger]()
+
+
+## [rel=noopener](https://mathiasbynens.github.io/rel-noopener/)
+
+[Mathias Bynens](https://twitter.com/mathias) es una persona a la que deberías seguir si te dedicas al desarrollo web. Yo tuve la suerte de verlo en el codefront.io de Austria, en Linz, donde impartió una charla chulísima sobre Unicode en JavaScript.
+
+![](/img/content/images/2016/03/Screen-Shot-2016-03-20-at-19-54-25.png)
+En este artículo, explica brevemente los peligros que entraña clickar en un link que te lleva a otra página, ya que mientras te ha sacado de la página en la que estabas, desde la nueva página puede tener control sobre la anterior sin que te des cuenta. Es decir, en la nueva página no pasa nada, todo **ok**, pero un atacante puede aprovechar esa **distracción** y hacer algo malicioso, ya que tiene acceso sobre el objeto `window` de la ventana anterior. Muy interesante esta lectura.
+
+
+## [Simplificando el testing](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4#.isoazrj6i)
+
+Este post de [Eric Elliot](https://twitter.com/_ericelliott) me ha gustado en especial por la manera en la que aborda el tema del testing, tanto en JavaScript como en general. A pesar de que en un principio el tema parece centrado en JS, lo que destaco es la perspectiva general de que hay frameworks de testing que tienen **demasiadas cosas**. Cosas que no necesitas para testear.
+
+![](/img/content/images/2016/03/Screen-Shot-2016-03-20-at-19-55-03.png)
+
+Por ejemplo, el hecho de tener que configurar todo el entorno de tests ha de ser algo sencillo, sin embargo, actualmente muchos frameworks necesitan de un setup previo tedioso en el que acabas invirtiendo más tiempo que en el propio testing.
+
+> Mocha, Jasmine, and several other alternatives pollute the global environment with functions like `describe`, `it`, etc… Some assertion libraries extend built-in prototypes. Aside from removing the self-documenting nature of simple module exports, those decisions could potentially conflict with the code you’re trying to test.
+
+También menciona que `beforeEach`y `afterEach` no han de utilizarse ya que hacen que el estado se comparta entre distintos tests.
+
+> Testing is not what you should
+spend most of your time doing. You should spend most of your time thinking about how to create the best, most flexible, most performant solutions given the afforded time constraints. Time is value in the software development world, and you shouldn’t waste one minute of it.
+
+Otro comentario que me gustó mucho fue el de que muchos frameworks contienen demasiados tipos de aserciones. En esto también estoy de acuerdo, porque en mi caso, siempre acabo usando prácticamente las cuatro o cinco aserciones típicas, ya que las demás me dan el mismo resultado y considero redundantes. [Aquí](http://www.cheatography.com/citguy/cheat-sheets/jasmine-js-testing/) puedes ver una lista de aserciones de Jasmine, mientras que el post afirma que: *`equal`, `deepEqual`, `pass` & `fail` are my primary go-to assertions. If `equal` and `deepEqual` were the only assertions available anywhere, the testing world would probably be better off for it.*
+
+Además, el autor ha sido en si mismo otro descubrimiento, porque no lo conocía.
+
+## [Estilo en imágenes rotas](http://bitsofco.de/styling-broken-images/)
+
+
+¿Qué pasa cuando una imagen no funciona? ¿Es suficiente con tener un texto alternativo? En este post de [Ire Aderinokun](http://ireaderinokun.com/) explica un truco para aplicar estilo a una imagen que no se puede ver, y la posibilidad de usar este truco en los distintos navegadores (i.e: [webkit bugs](https://bugs.webkit.org/show_bug.cgi?id=155227) ). La autora del blog es una diseñadora y desarrolladora nigeriana que tiene [proyectos](http://ireaderinokun.com/#work) muy interesantes.
+
+![](/img/content/images/2016/03/Screen-Shot-2016-03-20-at-19-53-09.png)
+
+
+# [Experiencia personal: traduciendo para MDN](https://developer.mozilla.org/es/profiles/elenatorro)
+
+![](/img/content/images/2016/03/Screen-Shot-2016-03-20-at-19-46-49.png)
+
+Hace años luz me registré en la Mozilla Developer Network, y hace poco descubrí que podías ayudar a traducir los documentos (en mi caso, de inglés a castellano). La experiencia es muy interesante, ya que inevitablemente aprendes, y hay muuuuuchas cosas aún por traducir. ES MÁS, la mayoría de los textos **necesitan** una revisión, ya que es algo que se hace voluntario y **por amor al arte**. Es decir, no hay un traductor profesional contratado. 
+
+En parte es algo que asusta. A mí me toca mucho el tema de que cada vez la gente escribe peor, porque además, tiene malos ejemplos. Internet está plagado de ellos. Es muy bueno que haya tanta información, pero es importante recordar que la **calidad** de esta información es esencial ya que, si ésta es errónea, estamos aprendiendo cosas **incorrectas**. Creo que es una buena práctica ayudar a traducir estos textos, y os animo a hacerlo, tanto a traducir como a corregir. Además, ¡se aprende muchísimo! porque te obligas a entender verdaderamente qué es lo que estás escribiendo.
+
+
+## Otros
+* Framework: [Framework para hacer emails responsive](https://mjml.io/)
+* Presentación: [Impacto del diseño en el mundo de la tecnología]( http://www.slideshare.net/kleinerperkins/design-in-tech-report-2016)
+
+![](/img/content/images/2016/03/Screen-Shot-2016-03-20-at-19-53-43.png)
+
+En realidad, he recopilado más cosas, que tengo bien guardadas en [pocket](https://getpocket.com). Poco a poco irán viendo la luz. En este primer post, me gustaría saber si os ha parecido demasiado corto, os i no he opinado lo suficiente, o si esperabais un contenido distinto. ¡FEEDBACK, PLEASE!
+
+Un saludo :D
+
+
+
+

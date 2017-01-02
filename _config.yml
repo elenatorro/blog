@@ -1,0 +1,72 @@
+
+#
+###################################
+# Site wide configuration
+####################################
+#
+
+title: Border Top Style
+email: elenatorro@gmail.com
+description: Personal blog about technology
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://elenatorro.github.io/blog" # the base hostname & protocol for your site
+
+twitter_username: eletorro
+github_username:  elenatorro
+
+comments: true
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Paris
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         :title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Border Top Style
+  avatar: avatar.png
+  job: "Personal blog about technology"
+  bio: "by Elena Torro"
+  email: elenatorro@gmail.com
+  disqus-shortname: elenatorro
+  twitter: eletorro
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: elenatorro
+  linkedin: #username
+  instagram: eletorro
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username

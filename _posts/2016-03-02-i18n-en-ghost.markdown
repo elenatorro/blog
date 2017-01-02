@@ -1,0 +1,150 @@
+---
+layout: post
+title: i18n en Ghost
+date: '2016-03-02 20:44:56'
+---
+
+Current status:
+<pre><code class="language-css">border-top-style: multilanguage;
+</code></pre>
+
+Hace tiempo me surgió la necesidad de hacer un [blog](http://skribado23.com) escrito en distintos idiomas, ya que me gustaría que mi contenido no sólo se limitara a los hispanohablantes. El caso es que siempre me he liado con el tema, no hay ninguna solución que me apañe para Ghost y aún estoy esperando a que los desarrolladores de éste saquen esta feature (ya que [están en ello](https://github.com/TryGhost/Ghost/issues/3801)).
+
+Hace tiempo hice una librería muy light para manipular el DOM, algo que hacen casi todos los desarrolladores frontend que conozco (como [Bliss](http://blissfuljs.com/), de Lea Verou, la cual explica cómo llegó a crear la suya en su [blog](http://lea.verou.me/2015/12/introducing-bliss-a-3kb-library-for-happier-vanilla-js/)). Esta librería se llama [LookJS](), y es de uso personal, pero ahí está, que nunca se sabe. Tiene muchos defectos, como que no usa la signatura '$' para acceder a los distintos elementos del DOM (lo cual, según me apuntó [Kiko Beats](https://kikobeats.com) es un gran error, ya que todo el mundo se ha acostumbrado a esta sintaxis, y al final me soltó un 'Convention over configuration' que no pude discutir). En cualquier caso, de momento la utilizo para pequeños proyectos, y ya que tiene un módulo de traducción he decidido utilizarla como mecanismo de traducción momentánea hasta que Ghost saque la oficial.
+
+Estoy escribiendo esto porque no sé cómo este apaño que he hecho puede afectar al posicionamiento del blog, y tal vez no sea una buena opción para aquéllos que quieran ver su contenido en el top de los buscadores. Tampoco sé si es lo idóneo en temas de accesibilidad, y eso me mosquea. Explico cómo va y si estás leyendo esto y piensas: 'pero alma de cántaro, t'as liao', escríbeme, hazme un PR o comenta en este post.
+
+El caso. Cada elemento que quieras traducir tiene que estar incluido en un JSON con la siguiente estructura. Dependiendo de cómo quieras acceder a este elemento, has de indicarlo (por id, por clase, por tag...). Esto es importante, ya que hay que tener en cuenta lo siguiente:
+
+* Si es el título, conviene que se añada un id al título o que se seleccione el primer 'h1', que correspondería al título, ya que sabemos que sólo va a haber uno.
+
+* Si, por otra parte, queremos traducir todos los elementos del menú de navegación, podemos seleccionar los elementos por clase y añadir una traducción a cada uno de manera ordenada. En Ghost se genera la navegación, por lo que esta opción es más sencilla que añadir un id a cada uno de los elementos del menú. Pero vamos, que esto a gusto del consumidor.
+
+Así es como se traduciría el menú de navegación:
+
+```
+<nav class="navbar">
+    <div class="container">
+      <ul class="navbar-list">
+        {{#foreach navigation}}
+        <li class="navbar-item"><a class="navbar-link" href="{{url absolute="true"}}">{{label}}</a></li>
+        {{/foreach}}
+      </ul>
+    </div>
+</nav>
+```
+
+Por defecto, en el valor **{{label}}** aparecerán los distintos elementos del menú que una tenga configurado en Ghost. A partir de esto, creamos nuestro objeto:
+
+```
+{
+	'class' : {
+		'navbar-link' : {
+			'0' : {
+				'EN' : 'Home',
+				'ES' : 'Principal'
+			},
+			'1' : {
+				'EN' : 'About',
+				'ES' : 'Sobre nosotros'
+			},
+			'2' : {
+				'EN' : 'Our work',
+				'ES' : 'Nuestros trabajos'
+			}
+		}
+	}
+};
+```
+
+Otro ejemplo: los botones de siguiente posts, post anterior, *read more*, posts nuevos, posts anteriores...
+
+````
+{
+	'id' : {
+		'nextPost': {
+	        'EN': 'Next Post',
+	        'ES': 'Siguiente post'
+	    },
+	    'previousPost': {
+	        'EN': 'Previous Post',
+	        'ES': 'Post anterior'
+	    },
+	    'newerPosts' : {
+	    	'EN' : 'Newer posts',
+	    	'ES' : 'Posts más recientes'
+	    },
+	    'olderPosts' : {
+	    	'EN' : 'Older posts',
+	    	'ES' : 'Posts más antiguos'
+	    }
+	},
+	'allClass' : {
+		'readMore' : {
+			'EN' : 'Read More',
+			'ES' : 'Seguir leyendo'
+		}
+	}
+};
+```
+
+Importante: El interior del tag sí que tiene que tener contenido. Es decir, que lo puedes dejar vacío si quieres, pero lo ideal es que tenga puesto una texto por defecto (en mi caso, tengo puesto los textos en inglés).
+
+Lo siguiente es aplicar las traducciones. Aquí es donde entra en juego Look. Los pasos que he tenido en cuenta son:
+
+
+### 1. Cookies
+
+Queremos que las traducciones se apliquen a todas las páginas del blog. Nuestro script detectará si hay algún idioma seleccionado que se haya guardado en las cookies, y si no pondrá uno por defecto.
+
+```
+var cookie: 'el_nombre_de_tu_cookie';
+
+if (!Look.cookie.exists(cookie)) {
+  Look.cookie.set(cookie, 'EN');
+};
+```
+
+### 2. Botones
+
+Tendrás que crear unos botones para cambiar de idioma, los cuales llamarán a la función de cambiar de idioma que veremos en el paso 3:
+
+* Javascript
+```
+var changeLanguageButtons = Look.getBy.className('changeLanguage');
+var i;
+for (i = 0; i < changeLanguageButtons.length; i++) {
+	changeLanguageButtons[i].addEventListener('click', function (data) {
+	changeLanguage(data.toElement.dataset.language);
+	});
+};
+```
+
+* HTML
+```
+<button class="changeLanguage" data-language="ES">Español</button>
+<button class="changeLanguage" data-language="EN">English</button>
+```
+
+El atributo que identifica el idioma es data-language, al que accedemos en el script mediante **dataset.language**.
+
+### 3. Cambiar de idioma
+
+Al cambiar de idioma, le pasaremos a Look el id del idioma al que se cambia (data-language) y el set de traducciones. Y no hay que olvidarse de cambiar las cookie.
+
+```
+function changeLanguage (language) {
+	Look.language.change(language, posts);
+	Look.cookie.set(cookie, language);
+};
+```
+
+El código está en este [repo](https://github.com/elenatorro/Ghosti18n) de GitHub por si te lo quieres descargar. También puedes añadir lo siguiente en las settings de tu blog (no olvides añadir primero el script de [LookJS](https://raw.githubusercontent.com/elenatorro/LookJS/master/lib/Look.min.js)):
+
+![Ghost Settings Screenshot](/img/content/images/2016/03/Screen-Shot-2016-03-02-at-21-34-03.png)
+
+## Ejemplo:
+
+![](/img/content/images/2016/03/languages.gif)
+
+Imagen de portada: [Buzz](http://static.simpledesktops.com/uploads/desktops/2014/10/22/Buzz.png)

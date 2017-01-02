@@ -1,0 +1,33 @@
+---
+layout: post
+title: Agile&UX - Introducción a la UX
+date: '2015-10-23 20:15:36'
+---
+
+Primer post sobre la serie [Agile&UX](#agilux).
+# Experiencia de Usuario
+
+Según la [definición dada por Nielsen Norman Group](http://www.nngroup.com/articles/definition-user-experience/), el término "User Experience", o experiencia de usuario, engloba todos los aspectos de la interacción del usuario final con la compañía, con sus servicios y con sus productos. El primer requerimiento para una experiencia de usuario ejemplar es encontrar las **necesidades exactas** del consumidor, sin quejas ni molestias. El siguiente requerimiento es la simplicidad y la elegancia de producir un producto que sea cómodo de tener y cómodo de utilizar. La verdadera UX va más allá de dar a los consumidores lo que ellos **dicen que quieren**, o de proveer una lista de características. Para conseguir una UX de alta calidad dentro de las ofertas de una compañía, tiene que haber una **mezcla perfecta** entre múltiples disciplinas, incluyendo ingeniería, marketing, diseño gráfico e industrial, y diseño de interfaces.
+
+Definir el término "UX" no es nada sencillo. No existe una definición concreta, ya que en realidad, es muchas cosas al mismo tiempo, y por lo general, esas cosas tienden a confundirse con facilidad. No se trata de una metodología en concreto, de una forma de diseñar específica o de una filosofía de desarrollo. La "UX" es un conjunto de elementos con un objetivo común: el **usuario final**. La gente, las personas que van a usar un producto que hemos creado con nuestras propias manos. Una buena experiencia de usuario significa que cuando uso un producto, me siento satisfecho de saber qué tareas tengo que realizar para cumplir aquello que quería o necesitaba. Es el efecto que provocan las interacciones y percepciones que tengo cuando uso un producto. Y sí, hablo de productos en general y no, por ejemplo, de aplicaciones en concreto, ya que al fin y al cabo, **la experiencia de usuario se genera cuando yo, como usuario, uso cualquier cosa y ese uso deriva en una reacción.**
+
+En su libro "UX Design para Startups" [[1]](#marcintreder), **Marcin Treder** introduce el término de la siguiente forma: "El diseño de experiencia de usuario (UXD, User Experience Design) es una disciplina enfocada en el diseño de **principio a fin** de la experiencia de un determinado producto. Diseñar una experiencia significa planificar y actuar en base a un grupo de acciones, las cuales deberían de resultar en un cambio planificado de comportamiento en un grupo objetivo (cuando interactúan con un producto)."
+
+La **reacción** ante el uso de un producto suele ser expresada como "me gusta", "es frustrante" o "ha sido fácil", por ejemplo. El diseño de la experiencia de usuario estudia esa reacción: cómo y por qué se produce, cómo provocarla o evitarla. El mejor carpintero del mundo podría construir la silla más bonita, barata y cómoda del mercado, y que dicha silla fuera un completo fracaso ya que no cumple con lo que el usuario esperaba. ¿Por qué el respaldo es tan alto? ¿Por qué no puedo plegarla para llevármela de viaje? ¿Por qué la voy a comprar si raya el suelo del salón? ¿No hay en más colores? ¿No hay una mesa a juego? Diseñar una experiencia es estudiar un comportamiento concreto relacionado con el uso de un producto, y encontrar las posibles soluciones a los problemas que plantea dicho uso. Nunca se puede **dar por sentado** una suposición sin haberla probado primero.
+
+En "Diseñando para las personas", Henry Dreyfuss afirma que: "Cuando el punto de contacto entre el producto y las personas se convierte en un punto de fricción, entonces el diseñador ha fallado. Por otro lado, si las personas se sienten más seguras, más confortables, con más ganas de comprar, más eficientes o simplemente más felices ante el contacto con el producto, entonces el diseñador ha tenido éxito." [[2]](#henrydreyfuss)
+
+Una vez se ha introducido el término, ¿qué hace entonces un "profesional" UX? ¿A qué se dedica? Para contestar a esas preguntas, habría que saber qué tipo de profesional es, qué área cubre, cuál es su especialidad… Como práctica profesional, engloba una serie de disciplinas distintas. Habrá profesionales que se dediquen a la "user research", para conocer al usuario, otros cuyo área sea la arquitectura de la información, el diseño de interfaces, la usabilidad o la evaluación del producto. Dichos profesionales pueden ser ingenieros, psicólogos, sociólogos, diseñadores… Y en base a su background y a su especialidad, asumir un rol u otro. Todo esto lo veremos en los próximos apartados con mayor detenimiento.
+
+Desde un **punto de vista personal**, la experiencia de usuario es lo que humaniza el proceso del desarrollo de un producto. Motiva a un desarrollador a realizar un buen trabajo. Enfocar tu esfuerzo a la idea de que lo que estás haciendo **afectará positivamente** a una persona hace que te sientas realizado, hace que pienses que no estás simplemente uniendo piezas en vano.
+
+## Bibliografía
+
+* <a name="marcintreder"></a>[1] Treder, Marcin. User Experience Para Startups, UXPin, 2013
+
+* <a name="henrydreyfuss"></a>[2] Buley, Leah.The User Experience Team of One: A Research and Design Survival Guide, New York: Rosenfeld, 2013
+
+## <a name="agilux"></a>¿Qué es Agile&UX?
+*El propósito de este breve manual es el de mostrar características comunes a metodologías ágiles y metodologías centradas en la experiencia de usuario. Este tema no es algo nuevo, a pesar de que en los últimos años se ha empezado a dar una especial importancia a la "User Experience" (UX). A pesar de que la UX se relacione más con el diseño, tiene un importante componente de desarrollo, por lo que dentro de una empresa cuyo objetivo sea realizar un producto pensando en sus usuarios, la combinación de estos dos tipos de metodologías se convierte en una tarea importante. Estos tipos parten de perspectivas distintas, por lo que no siempre es fácil encontrar esa armonía. ¿Cómo conseguir que en un equipo se coordine la fase de planificación tanto a nivel de diseño como de desarrollo? ¿Es posible desarrollar una aplicación a partir de casos de uso encontrados en test de evaluación de usuarios?*
+
+Imagen de portada: [Mac 2](http://static.simpledesktops.com/uploads/desktops/2011/09/21/mac_2.png)

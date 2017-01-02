@@ -1,0 +1,70 @@
+---
+layout: post
+title: 'Web Weekly #2'
+date: '2016-03-27 17:02:08'
+---
+
+<pre><code class="language-css">border-top-style: reactive;
+</code></pre>
+
+## Programación Reactiva
+
+> "Se espera que un sistema reactivo interaccione con su entorno, intercalando las entradas y las salidas de forma temporal, lo que quiere decir que dentro de una cantidad de tiempo adecuado (lo que se considere adecuado depende del dominio de aplicación) el sistema devuelva una respuesta en función de las entradas recibidas y continúe con el ciclo de ejecución." *[
+Fernando Sancho Caparrini](http://www.cs.us.es/~fsancho/?e=111)*
+
+La semana pasada se despertó en mí la curiosidad sobre la programación reactiva, a raíz de este vídeo:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/COviCoUtwx4" frameborder="0" allowfullscreen></iframe>
+
+A modo de resumen, la **programación reactiva** es un paradigma de programación, una programación que se enfoca a la gestión asíncrona de los datos (llamadas AJAX, eventos, workers, sockets...) Nos interesa, por lo tanto, utilizar programación reactiva cuando hemos de realizar un alto número de operaciones asíncronas. Uno de los ejemplos que usa el vídeo es el de cancelar una llamada AJAX si el usuario cancela la acción que la desencadena. Explica [RxJS](https://github.com/Reactive-Extensions/RxJS), un proyecto desarrollado por **Microsoft**, compuesto por una serie de librerías que extiende la funcionalidad reactiva. Introduce los objetos **Observer**, que introduce los distintos flujos de datos en el flujo de eventos, y el objeto **Observable**, que notifica al observer cuando un evento ocurre.
+
+> Reactive Extensions for JavaScript unify both the world of Promises, callbacks as well as evented data such as DOM Input, Web Workers, and Web Sockets. Unifying these concepts enables rich composition.
+
+En relación a este tema, llegué a [este post](https://medium.com/reactive-programming/what-is-reactive-programming-bc9fa7f4a7fc#.tw800o5gv), que explica los principios de la programación reactiva. Para entenderlo un poco mejor, nos expone los **cuatro principios** que ha de tener una aplicación desarrollada con este paradigma:
+
+* **Responsive:** *Un sistema responsive reacciona rápidamente a todos los usuarios (tanto en escenarios favorables como desfavorables) para asegurar una experiencia de usuario positiva y consistente*
+* **Scalable:** *Un sistema escalable es fácil de actualizar bajo demanda para asegurar que seguirá siendo responsive bajo distintas condiciones de carga*
+* **Resilient:** *Un sistema flexible aplica principios de diseño y arquitectura para asegurar que es responsive en escenarios favorables y desfavorables.*
+* **Message-driven:** *Un arquitectura conducida por mensajes es la base de las aplicaciones reactivas. Tiene que ser dirigida por eventos, basada en actores o una combinación de ambos.*
+
+## JavaScript en 2016
+
+Un post recopilatorio que recomiendo esta semana es [State of the Art JavaScript in 2016 ](https://medium.com/javascript-and-opinions/state-of-the-art-javascript-in-2016-ab67fc68eb0b#.phsllzxhg). Habla de los frameworks/tecnologías que más se utilizan/van a utilizarse este año (React, Redux, ES6, Babel, Webpack...). Al final, ofrece una serie de links para leer más sobre estos temas. Creo que es un buen post para mantenerse up-to-date y que es interesante leer.👌
+
+## Houdini
+
+Un problema al que nos enfrentamos a diario los que escribimos CSS es el de la compatibilidad entre navegadores. Houdini no es un nuevo framework mágico que hay que aprender, si es lo que al leer temíais (como yo). Es más bien un **objetivo** de la W3C para que desaparezca este problema.
+
+Se trata de introducir un nuevo set de APIs que extentiendan el propio CSS. El [artículo](https://www.smashingmagazine.com/2016/03/houdini-maybe-the-most-exciting-development-in-css-youve-never-heard-of/) explica las siguientes cuestiones:
+
+* ¿Qué problema exactamente quiere resolver?
+* ¿Es una buena idea?
+* ¿Cómo ayudará a los desarrolladores a construir sitios web?
+
+![](/img/content/images/2016/03/virtual-reality-2.jpg)
+Imagen: [http://vrdeveloper.org/](http://vrdeveloper.org/)
+# WebVR
+
+Es indudable que la realidad aumentada y la realidad virtual (AR, VR) están ya entre nosotros, incluyendo la web. Un claro ejemplo es el proyecto [MozVR](http://mozvr.com/)
+
+Pero, ¿qué necesitamos para llevar esta tecnología a la web? En este [post](http://www.sitepoint.com/how-to-build-vr-on-the-web-today/) encontramos el *stack* tecnológico que va a empezar pegando fuerte en este área. Entre ellos se encuentra, como no podía ser menos, [three.js](http://threejs.org/). Existe un boilerplate open source que podemos encontrar en [GitHub](https://github.com/borismus/webvr-boilerplate). La primera versión del API estará disponible, dicen, este verano en [Firefox Nightly](https://nightly.mozilla.org/). Si tenéis interés, podéis empezar a 👓 [estudiar la documentación](https://mozvr.github.io/webvr-spec/)👓 de WebVR. Para saber cuándo estará listo, existe la web [is WebVR ready?](https://iswebvrready.org/). Para mantenerse al día en este tema, también conviene seguir el [blog](http://blog.tojicode.com/) de [Brandon Jones](https://twitter.com/Tojiro), desarrollador de WebGL y WebVR para Chrome en Google. También hablan del tema en el siguiente [tumblr](http://webglvr.tumblr.com/).
+
+La posibilidad de utilizar los smartphones como gafas de realidad aumentada junto con otras tecnologías como por ejemplo el [LeapMotion](https://www.leapmotion.com/) pueden dar un juego brutal. Y no sólo eso, sino que la experiencia de usuario (UX) también tiene un papel **esencial** en todo esto:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZOaOYTOpwyM" frameborder="0" allowfullscreen></iframe>
+
+Como véis, este campo me llama mucho la atención y me interesa bastante.
+
+## NPM Drama
+
+Estoy escribiendo un post más extenso sobre este tema, así que aquí lo comentaré por encima, porque no podía no mencionarlo en éste. Ha sido, sin duda, uno de los temas más comentados esta semana.
+
+Muy brevemente: La empresa [Kik](https://www.kik.com/) obliga a [Azer Koçulu](https://twitter.com/azerbike), desarrollador de una librería de NPM con el mismo nombre, a borrar esta librería open source ya que el nombre lo tienen pillado ellos. Él se niega. Kik habla con NPM, y ellos la borran. Azer decide borrar, por lo tanto, todas sus librerías que tenía subidas en NPM ya que opina que el hecho de eliminar la librería de otra persona sin su consentimiento no encaja con la filosofía que tiene sobre las librerías open source. Desafortunadamente, Azer había escrito una librería de **once líneas** que utilizaban React, Babel y otros paquetes archiconocidos. Resultado: estos paquetes se rompen, todos los proyectos que los utilizaban se rompen. He aquí el **drama**, pero no voy a decir nada más hasta el post 😁
+## Otros
+* [Generación de documentación en JS](http://www.fusioncharts.com/blog/2013/12/jsdoc-vs-yuidoc-vs-doxx-vs-docco-choosing-a-javascript-documentation-generator/)
+* [Truquillos frontend](https://www.smashingmagazine.com/2016/03/dirty-tricks-dark-corners-front-end-slides-pdf/)
+* [Animating with React, Redux, and d3](http://swizec.com/blog/animating-with-react-redux-and-d3/swizec/6775)
+
+Espero que os haya gustado este nuevo Web Weekly, ¡nos vemos la semana que viene en el siguiente!
+
+Imagen de portada: [gigaom](https://gigaom.com/2015/02/02/responsive-web-design-is-coming-to-vr/)

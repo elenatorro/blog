@@ -1,0 +1,65 @@
+---
+layout: post
+title: Codemotion 2015
+date: '2015-12-07 08:44:00'
+---
+
+# Codemotion 2015
+
+Este post va a ser breve, porque quiero que la gente lo lea. Simplemente, quiero agradecer y felicitar a la organización del evento #Codemotion_es (o #Codemotion2015), al que he asistido por tercera vez consecutiva, esta vez como ponente.
+
+# Viernes 27
+
+Mi charla (o talk, en plan poser) fue en el track 6 a primera hora. Abriendo el Codemotion. Es mi primera experiencia como 'speaker' (poser++) en un evento grande, y fue muy positiva. Tenía el viento un poco en contra (casi 39 de fiebre 😨, garganta dolorida, charla en inglés porque vino mi compi Lakshay 🇮🇳) pero tuvo buena acogida. Hablé sobre tips básicos de interfaces de usuario, ya que como desarrolladores, seguro que alguna vez nos enfrentamos a la tarea de realizar una UI para una web o app. Las presentación (hecha en una semana, ya que me dio el venazo de querer hacerla interactiva en HTML y JS) está en [GitHub]. (Gracias a amigos, compis y excompis de trabajo por venir 💖😁💖)
+
+![](/img/content/images/2015/12/codemotion_3.jpg)
+
+Reacciones a la charla en la web del codemotion:
+
+*"Bien dada e interesante pero a lo mejor no demasiado intermediate, los conceptos eran muy básicos. El título no sé si muy adecuado, me esperaba a lo mejor algo más de historia y de evolución de las UI."*
+
+*"Más básica de lo que esperaba y no muy ajustada al título salvo la primera parte pero bien impartida :)"*
+
+*"Muy básica para mi, y reconozco que esperaba otra cosa, pero me gusta que el Codemotion no sea solo de lenguajes de back, sino también de todo lo que hay alrededor del código."*
+
+*"Interesante y completa. Quizá demasiadas sentencias "porque sí" en lugar de explicaciones, aun breves, del porqué. Recomendable."*
+
+*"La charla de básicas de UX de @Elenarcolepsia en el @codemotion_es  va a hacer mucho bien al mundo del desarrollo. #Codemotion2015"*
+
+*"Muy buen contenido, en la línea de lo que los gurús de mi empresa recomiendan como best practices. Elena sabe bien de lo que habla. Le hubiese dado las 5 estrellas si hubiese hablado menos rápido e interactuado un pelín más :)"*
+
+*"genial, aunque me ha tocado verla de pie, ha sido muy interesante y sobre todo dinámica y amena."*
+
+*"Me ha gustado la sesión. Muy interesante cómo se han presentado las buenas prácticas en diseño de interfaces a dia de hoy."*
+
+
+Por lo tanto, ya sé cómo quiero hacer la próxima y qué cosas mejorar, que seguro que saldrá mucho **mejor** :)
+
+![](/img/content/images/2015/12/codemotion_4.jpg)
+
+Esa mañana también aprendí [cómo darle amor a los tests](https://www.youtube.com/watch?v=zPKMmG6koIg&feature=youtu.be), muy divertida, y después me estuve paseando por los stands, hablando con mucha gente. (después de tomarme las medicinas para el resfriado y un buen café). Conocí a la gente de [Kairos](http://kairosds.com/) (majísimos) y hablé de Javascript con [atSistemas](http://atsistemas.com/)
+
+Después de comer y hablar con amigos, fui a un workshop de **#React** y **#Webpack** a hacer un poco de código, y me moló el tema, a pesar de los impedimentos técnicos (saturamos la sala y se fue la luz, pero todo salió bien).
+
+Quiero destacar de ese día la **increíble e inspiradora** charla de [Katia Aresti](https://twitter.com/karesti), que se titulaba "He fracasado : Tengo mas de 30 y sigo programando". Me sentí identificada en muchos aspectos. Relató su experiencia como desarrolladora, también habló de eventos a los que organiza y asiste, del papel del programador, de cómo podemos orientar nuestra carrera profesional a seguir programando si no queremos escoger el camino de ser managers o leads. En esta charla me dije varias veces: *"Vaya, eso justo me ha pasado a mí"*, y también pensé: *"tal vez sí que vaya por el buen camino..."* o *"no lo estoy haciendo tan mal"*. Nos reímos varias veces, pasamos un buen rato.👏👏👏
+
+Unas [empanadas](http://tienda.milandopico.com/) y unas cañas después 🍻 , cogimos el bus back home.
+
+# Sábado 28
+
+Ya más relax y con menos fiebre, vi de buena mañana un poco de [programación funcional con JS](https://speakerdeck.com/onielfadev/codemotion-2015-functional-reactive-programming-fp-javascript-con-extra-de-bacon).
+
+Estuve también, cómo no, en la charla de [Kiko Beats](https://twitter.com/@kikobeats), que se marcó un beatbox para amenizar los minutos de espera antes de empezar. Muy buenos tips sobre Javascript, pero aquí no puedo ser objetiva así que, NEXT.
+
+Fui al track en el que [David Bonilla](https://twitter.com/david_bonilla) de [Otogami](http://www.otogami.com/), [Felipe Navío](https://twitter.com/felipenavio) de [Jobandtalent](http://www.jobandtalent.com/) y [Javi Santana](https://twitter.com/javisantana) de [CartoDB](https://cartodb.com/) respondieron a una serie de preguntas sobre sus startups. Me gustan mucho este tipo de mesas redondas, porque te permite conocer otras realidades y compararlas con la tuya. Me gustó mucho eso de que Javi Santana dijera que una 'métrica' que ellos usan en CartoDB es darse abrazos por las mañanas, porque yo también me los doy con mis compañeros, y creo que el buen rollo dentro de los trabajadores, el darte un abrazo, hace que las ocho horas (mínimo) que pases allí las pases mejor, más en familia.👬 👫 👭
+
+Por último, hablar de la charla 'Help, I need more woman!", en la que habló [Laura Morillo](https://twitter.com/Laura_Morillo), que es además, organizadora entre otras cosas, de las [Tech&Ladies](http://techandladies.com/), comunidad a la que pertenezco. Ella cuenta más en detalle todo lo que dijeron en la charla en el [blog de Microsoft Developer España](http://blogs.msdn.com/b/esmsdn/archive/2015/12/04/post-invitado-las-mujeres-en-la-tecnolog-237-a-191-hacia-d-243-nde-podemos-mirar.aspx).
+
+> Según los datos publicados por el ministerio de Educación y Ciencia las ramas de Ingeniería y Arquitectura apenas un 25,9% de los estudiantes fueron mujeres en el curso 2014/2015. Cuando miramos los datos relacionados con la Informática, el porcentaje desciende por debajo del 15%. ¿A qué se debe esa baja participación y qué podemos hacer para intentar mejorar la situación? Es un problema complejo de analizar y son múltiples los factores que influyen: los estereotipos, los prejuicios, la cultura, la falta de referentes...
+
+En un futuro post que ya estoy preparando, hablaré de **por qué** pertenezco a esta comunidad y cuál es mi opinión sobre el tema de las **mujeres** en el ámbito tecnológico (por fin me voy a atrever).
+
+No me voy a enrollar mucho más porque no me gustan los posts kilométricos, así que, para aquellos que quieran saber más del **Codemotion2015**, pueden mirar los vídeos [en YouTube](https://www.youtube.com/watch?v=-pS4hsZ-Loo&list=PLiLJQ1Z3egaqC1abWSLmcNurOtfHwhKIf).
+
+![](/img/content/images/2015/12/codemotion_2.jpg)
+Muchas gracias *one more time* a la organización, a los amigos que vinieron y a los amigos que hice. El año que viene **MOAR**.

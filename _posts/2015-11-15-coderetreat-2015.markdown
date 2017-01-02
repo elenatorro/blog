@@ -1,0 +1,44 @@
+---
+layout: post
+title: Global Day of Coderetreat 2015
+date: '2015-11-15 16:08:49'
+---
+
+El pasado sábado 14 de Noviembre asistí al [#GDCR2015](https://twitter.com/search?q=%23gdcr15&src=tyah) en Alicante, organizado por [Gemalto](https://twitter.com/Gemalto). Estuve a punto de ir al de Valencia, donde lo organizaba [No Flop Squad](https://twitter.com/noflopsquad) , pero ya que éste me pillaba más cerquita... allí que estuve toda la mañana y parte de la tarde programando con otros developers de la zona.
+
+En resumen, el [**Global Day of Coderetreat**](http://globalday.coderetreat.org/) es un evento **mundial**, organizado en varias ciudades del mundo. El organizador en Alicante fue [Raúl Gomis](https://twitter.com/rgomis), que se encargó de comunicarse y coordinarse con las otras sedes. 
+
+Durante un día, hay que resolver un ejercicio práctico haciendo especial hincapié en el diseño y el desarrollo de software. Es decir, no se trata de llegar a resolver el ejercicio, sino de **cómo** resolverlo. Cómo enfocar el problema, cómo empezar a desarrollar. 
+
+> "Practicing the basic principles of modular and object-oriented design, developers can improve their ability to write code that minimizes the cost of change over time."
+
+Un coordinador, en nuestro caso [Jorge Muria](https://twitter.com/jmuria), que también organizo el [Agile University Day](bordertopstyle.com/cronica-agile-alicante/), explica el ejercicio y qué hacer en cada una de las sesiones. El ejercicio consistió programar el [Juego de la Vida de Conway](http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/). Brevemente (😂), consiste en lo siguiente (sacado de Wikipedia):
+
+* El "tablero de juego" es una malla formada por cuadrados ("células") que se extiende por el infinito en todas las direcciones. 
+* Cada célula tiene 8 células vecinas, que son las que están próximas a ella, incluidas las diagonales.
+*  Las células tienen dos estados: están "vivas" o "muertas" (o "encendidas" y "apagadas"). 
+* El estado de la malla evoluciona a lo largo de unidades de tiempo discretas (se podría decir que por turnos).
+* El estado de todas las células se tiene en cuenta para calcular el estado de las mismas al turno siguiente. Todas las células se actualizan simultáneamente.
+* Las transiciones dependen del número de células vecinas vivas:
+ * Una célula muerta con exactamente 3 células vecinas vivas "nace" (al turno siguiente estará viva).
+ * Una célula viva con 2 ó 3 células vecinas vivas sigue viva, en otro caso muere o permanece muerta (por "soledad" o "superpoblación").
+
+Para ello, utilizamos TDD (*Test Driven Development*) y Pair Programming. Hicimos un total de cinco sesiones. En cada sesión, nos poníamos por parejas y comenzábamos a elaborar y a diseñar una solución al problema. Yo llevé dos entornos de testing preparados, uno en 💕JavaScript💕 y otro en Ruby. Entre los lenguajes que utilizamos, también se encontraban C++, Java y PHP. Bastante variadita la cosa 👌.
+
+Cada ronda cambiábamos de pareja, y en la última ronda, nos turnábamos para ir escribiendo y resolviendo los tests en un ordenador conectado a un proyector. Después de cada ronda, hacíamos una **retrospectiva** de qué nos había parecido el ejercicio.
+
+Lo bueno de este tipo de prácticas, al menos lo que a mí me gusta, es que para mí programar es algo muy **íntimo**. Me da mucha vergüenza que me vean programar. Al menos, me daba, ya que ahora estoy venciendo ese miedo poco a poco. Además, como ya comenté en mi post [Por qué dar una charla](http://bordertopstyle.com/por-que-dar-una-charla/), asistir a estos eventos te hace pasar un buen rato con gente que se dedica a lo mismo que tú. Siempre es interesante conocer gente nueva, o estar con los compañeros, hablando del mundo en el que nos movemos. Además, hubo muchos dulces 🍩, café y pizza 🍕.
+
+Además, en nuestro caso lo hicimos en inglés, ya que tuvimos asistentes internacionales. Creo que es un evento muy interesante también para aquellos que no se atreven a probar TDD, que cada vez me gusta más (pero eso ya, en otro post).
+
+Dejo aquí algunas fotos del evento 😃
+
+![](/img/content/images/2015/11/IMG_2015-11-15-16-59-57.jpg)
+![](/img/content/images/2015/11/IMG_2015-11-15-17-00-07.jpg)
+![](/img/content/images/2015/11/IMG_2015-11-15-17-00-12.jpg)
+![](/img/content/images/2015/11/IMG_2015-11-15-17-00-16.jpg)
+![](/img/content/images/2015/11/IMG_2015-11-15-17-00-23.jpg)
+![](/img/content/images/2015/11/IMG_2015-11-15-17-00-33.jpg)
+![](/img/content/images/2015/11/CTxEfMgWEAADxdG--1-.jpg)
+
+
