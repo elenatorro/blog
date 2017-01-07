@@ -8,8 +8,8 @@
 title: Border Top Style
 email: elenatorro@gmail.com
 description: Personal blog about technology
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://elenatorro.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bordertopstyle.com" # the base hostname & protocol for your site
 
 twitter_username: eletorro
 github_username:  elenatorro
